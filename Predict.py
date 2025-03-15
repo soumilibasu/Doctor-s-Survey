@@ -1,9 +1,7 @@
-import os
-os.system("pip install --no-cache-dir --upgrade scikit-learn")
-
 import streamlit as st
 import pandas as pd
 import numpy as np
+import sklearn
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.multioutput import MultiOutputClassifier

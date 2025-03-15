@@ -1,7 +1,6 @@
---upgrade --force-reinstall
 
 pandas
 numpy
-sklearn
+scikit-learn
 openpyxl
 streamlit

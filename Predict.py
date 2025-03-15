@@ -1,3 +1,6 @@
+import os
+os.system("pip install --no-cache-dir --upgrade scikit-learn")
+
 import streamlit as st
 import pandas as pd
 import numpy as np

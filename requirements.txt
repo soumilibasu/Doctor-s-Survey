@@ -1,6 +1,6 @@
 pandas
 numpy
-scikit-learn==1.2.2 --only-binary :all:
+scikit-learn
 scipy
 openpyxl
 streamlit

@@ -2,6 +2,6 @@
 
 pandas
 numpy
-scikit-learn
+sklearn
 openpyxl
 streamlit

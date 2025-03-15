@@ -1,6 +1,0 @@
-pandas
-numpy
-scikit-learn==1.2.2 --only-binary :all:
-scipy
-openpyxl
-streamlit

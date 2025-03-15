@@ -1,11 +1,15 @@
+import os
+os.system("pip install --no-cache-dir --upgrade scikit-learn")
+
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.preprocessing import LabelEncoder
+from sklearn.metrics import accuracy_score
+
 import streamlit as st
 import pandas as pd
 import numpy as np
 import sklearn
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.multioutput import MultiOutputClassifier
-from sklearn.preprocessing import LabelEncoder
 
 def load_data():
     df = pd.read_excel("Doctor_data.xlsx", sheet_name="Dataset")

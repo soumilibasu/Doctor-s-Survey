@@ -1,6 +1,3 @@
-import os
-os.system("pip install --no-cache-dir --upgrade scikit-learn==1.2.2 scipy")
-
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder

@@ -1,3 +1,5 @@
+--upgrade --force-reinstall
+
 pandas
 numpy
 scikit-learn
